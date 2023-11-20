@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def raise_exception_msg(message=""):
-    print(message, end="")
-    raise NameError
+def raise_exception():
+    """Raise a TypeError exception."""
+    raise TypeError
